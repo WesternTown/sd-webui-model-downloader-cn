@@ -250,6 +250,6 @@ def on_ui_tabs():
             outputs=[result]
         )
 
-    return [(ui_component, "模型下载", "model_downloader_cn_tab")]
+    return (ui_component, "模型下载2", "model_downloader2_cn_tab")
 
 script_callbacks.on_ui_tabs(on_ui_tabs)
